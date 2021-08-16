@@ -7,6 +7,8 @@ from tkinter import *
 import tkinter.ttk as ttk
 
 def all_func(ip_addr, number, password):
+    pb.start()
+    pb_status['text'] = 'В процессе!'
     #открываем шаблон конфига и исправляем в нем учетные данные. Важно: учетные данные от веб морды уже исправлены в шаблоне на: admin:Huawei79, а также уже указан мой server asterisk, и мой ntp server. Вам же будет проще подменит Config_old на свой!
     with open('Config-eSpace7910_old.xml', 'r') as f:
         old_data = f.read()
@@ -29,7 +31,7 @@ def all_func(ip_addr, number, password):
     capabilities['acceptInsecureCerts'] = True
 
     # Получаем в переменную browser указатель на webdriver
-    browser = webdriver.Chrome(chrome_options=chrome_options, desired_capabilities=capabilities)
+    browser = webdriver.Chrome('./driver/chromedriver.exe', chrome_options=chrome_options, desired_capabilities=capabilities)
     # Переходим на страницу
     browser.get('https://' + ip_addr)
     time.sleep(8)
@@ -67,31 +69,36 @@ def all_func(ip_addr, number, password):
     time.sleep(2)
     browser.close()
     print('Готово! После перезагрузки телефон будет готов!')
+    time.sleep(60)
+    pb.stop()
+    pb_status['text'] = 'Готово, проверяйте работу!'
 
 root = Tk()
-root.geometry('450x250+1000+300')
-root.maxsize(450, 250)
-root.minsize(450, 250)
-f = Frame(root)
-f.pack(pady=10)
+root.geometry('420x250+1000+300')
+# root.maxsize(420, 250)
+# root.minsize(420, 250)
+f = Frame(root, bg='#FBCEB1')
+f.pack()
 
 
-l_ip = Label(f, text='Ip адрес:', fg='#008080')
-l_ip.grid(row=0, column=0, padx=10, pady=10, sticky=W)
+l_ip = Label(f, text='Введите Ip адрес:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
+l_ip.grid(row=0, column=0, pady=10, sticky=W)
 e_ip = Entry(f)
-e_ip.grid(row=0, column=2, sticky=W+E, padx=30, pady=10)
-l_user = Label(f, text='Sip user:', fg='#008080')
-l_user.grid(row=1, column=0, padx=10, pady=10, sticky=W)
-l_password = Label(f, text='Sip password:', padx=10, pady=10, fg='#008080')
-l_password.grid(row=2, column=0)
+e_ip.grid(row=0, column=2, sticky=W+E, padx=10, pady=20)
+l_user = Label(f, text='Введите sip user:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
+l_user.grid(row=1, column=0, pady=10, sticky=W)
+l_password = Label(f, text='Введите sip password:', padx=10, pady=10, fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'))
+l_password.grid(row=2, column=0, pady=10, sticky=W)
 e_user = Entry(f)
-e_user.grid(row=1, column=2, sticky=W+E, padx=30, pady=10)
+e_user.grid(row=1, column=2, sticky=W+E, padx=10, pady=10)
 e_password = Entry(f)
-e_password.grid(row=2, column=2, sticky=W+E, padx=30, pady=10)
-pb = ttk.Progressbar(f, mode='determinate')
-pb.grid(row=4, column=0, columnspan=3, pady=10, sticky=W+E)
-pb_status = Label(f, fg='#008080')
-pb_status.grid(row=5, column=2, padx=10, pady=5, sticky=W)
+e_password.grid(row=2, column=2, sticky=W+E, padx=10, pady=10)
+pb = ttk.Progressbar(f, orient='horizontal', mode='indeterminate', length=280)
+# pb.start()
+# pb.stop()
+pb.grid(row=4, column=0, columnspan=3, pady=10, padx=30, sticky=W+E)
+pb_status = Label(f, fg='black', bg='#FBCEB1', font=('Courier New', 15, 'bold'), padx=10)
+pb_status.grid(row=3, column=1, columnspan=2, padx=10, pady=10, sticky=W)
 
 # def progress():
 #     pb_status['text'] = 'В процессе!'
@@ -106,6 +113,6 @@ pb_status.grid(row=5, column=2, padx=10, pady=5, sticky=W)
 #     pb_status['text'] = 'Готово!'
 
 
-btn_configure = Button(f, text='Настроить', padx=10, pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get())).grid(row=3, column=0)
+btn_configure = Button(f, text='Настроить', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get())).grid(row=3, column=0, sticky=W, padx=30)
 
 root.mainloop()
