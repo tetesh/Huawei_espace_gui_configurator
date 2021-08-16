@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
-import time, os
+from selenium.common.exceptions import WebDriverException
+import time, os, sys
 from tkinter import *
 import tkinter.ttk as ttk
 
@@ -36,11 +37,25 @@ def all_func(ip_addr, number, password):
     browser = webdriver.Chrome('./driver/chromedriver.exe', chrome_options=chrome_options, desired_capabilities=capabilities)
 
     # Переходим на страницу
-    browser.get('https://' + ip_addr)
-    time.sleep(8)
+    try:
+        browser.get('https://' + ip_addr)
+        time.sleep(8)
+    except WebDriverException:
+        print('ip адрес не доступен!')
+        browser.close()
+        pb.stop()
+        pb_status['text'] = 'ERROR: ip адрес не доступен!'
+
     # Ищем элемент ввода и отправляем стандартные учетные данные
-    login = browser.find_element_by_id('user_name_txt')
-    login.send_keys('admin')
+    try:
+        login = browser.find_element_by_id('user_name_txt')
+        login.send_keys('admin')
+    except NoSuchElementException:
+        print('Это не ip телефон Huawei 7910')
+        browser.close()
+        pb.stop()
+        pb_status['text'] = 'ERROR: Это не ip телефон Huawei 7910!'
+
     # Ищем элемент ввода и отправляем стандартные учетные данные
     passwd = browser.find_element_by_id('password_txt')
     passwd.send_keys('admin123')
@@ -55,7 +70,8 @@ def all_func(ip_addr, number, password):
     except NoSuchElementException:
         print('Телефон уже был настроен, для настройки через эту программу сбростье его до заводских настроек!')
         browser.close()
-        sys.exit()
+        pb.stop()
+        pb_status['text'] = 'ERROR: Телефон уже был настроен!'
 
     time.sleep(1)
     go_advanced = browser.find_element_by_id('label_advanced')
@@ -74,34 +90,39 @@ def all_func(ip_addr, number, password):
     print('Готово! После перезагрузки телефон будет готов!')
     time.sleep(60)
     pb.stop()
-    pb_status['text'] = 'Готово, проверяйте работу!'
+    pb_status['text'] = 'Готово!'
 
 root = Tk()
-root.geometry('380x250+1000+300')
-# root.maxsize(420, 250)
-# root.minsize(420, 250)
+root.geometry('380x280+1000+300')
+root.maxsize(380, 280)
+root.minsize(380, 280)
 f = Frame(root, bg='#FBCEB1')
 f.pack()
 
 
-l_ip = Label(f, text='Введите Ip адрес:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
+l_ip = Label(f, text='Введите ip адрес:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
 l_ip.grid(row=0, column=0, pady=10, sticky=W)
+
 e_ip = Entry(f)
 e_ip.grid(row=0, column=2, sticky=W+E, padx=10, pady=20)
+
 l_user = Label(f, text='Введите sip user:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
 l_user.grid(row=1, column=0, pady=10, sticky=W)
+
 l_password = Label(f, text='Введите sip password:', padx=10, pady=10, fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'))
 l_password.grid(row=2, column=0, pady=10, sticky=W)
+
 e_user = Entry(f)
 e_user.grid(row=1, column=2, sticky=W+E, padx=10, pady=10)
+
 e_password = Entry(f)
 e_password.grid(row=2, column=2, sticky=W+E, padx=10, pady=10)
+
 pb = ttk.Progressbar(f, orient='horizontal', mode='indeterminate', length=280)
-# pb.start()
-# pb.stop()
-pb.grid(row=4, column=0, columnspan=3, pady=5, padx=30, sticky=W+E)
-pb_status = Label(f, fg='black', bg='#FBCEB1', font=('Courier New', 15, 'bold'))
-pb_status.grid(row=3, column=1, columnspan=2, pady=10, sticky=W)
+pb.grid(row=5, column=0, columnspan=3, pady=5, padx=30, sticky=W+E)
+
+pb_status = Label(f, fg='black', bg='#FBCEB1', font=('Courier New', 11, 'bold'))
+pb_status.grid(row=4, column=0, columnspan=3, pady=10, padx=10, sticky=W)
 
 
 btn_configure = Button(f, text='Настроить', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get())).grid(row=3, column=0, sticky=W, padx=30)
