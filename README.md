@@ -1,4 +1,4 @@
-# Huawei_espace_gui_configurator
+# Huawei_Espace7910_gui_configurator
 
 #TODO
 
