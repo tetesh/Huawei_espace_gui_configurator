@@ -1,0 +1,613 @@
+<InternetGatewayDeviceConfig TimeMark="">
+<Device>
+<UserCfg>
+<Account1 Enable="1" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd=""/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="10.10.124.2" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account1>
+<Account2 Enable="0" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd="******"/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account2>
+<Account3 Enable="0" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd="******"/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account3>
+<Account4 Enable="0" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd="******"/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account4>
+<Account5 Enable="0" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd="******"/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account5>
+<Account6 Enable="0" Account="" LogOut="0" LabelName="" UCAccount="" PGMNumber="" CorpID="" PhysicalLocation="" JointUserNum="">
+<Auth UserName="" Passwd="******"/>
+<calls CallsPerLine="1"/>
+<Server PrimaryRegServerAddress="" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" UMSPrimaryServerAddress="" UMSPrimaryServerPort="8020" UMSBackupServerAddress="" UMSBackupServerPort="8020"/>
+<Sip TransferMode="3"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+</Account6>
+<CallWait ServiceRegister="1"/>
+<AnonymousCall ServiceRegister="0"/>
+<Line1 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line2 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line3 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line4 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line5 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line6 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line7 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line8 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line9 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line10 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line11 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<Line12 Type="0" ShareNumber="" LabelName="" AttributiveAccount="" NumofAttributiveAccount="1" RelatedNum=""/>
+<ExtBrd ConfigBrdCnt="0">
+<Brd1>
+<BtnInfo NumberOfInstances="1">
+<BtnInfoInstance InstanceID="1" Loc="1" LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0"/>
+</BtnInfo>
+</Brd1>
+<Brd2>
+<BtnInfo NumberOfInstances="1">
+<BtnInfoInstance InstanceID="1" Loc="1" LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0"/>
+</BtnInfo>
+</Brd2>
+<Brd3>
+<BtnInfo NumberOfInstances="1">
+<BtnInfoInstance InstanceID="1" Loc="1" LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0"/>
+</BtnInfo>
+</Brd3>
+</ExtBrd>
+<ProgKey NumberOfInstances="1">
+<ProgKeyInstance InstanceID="1" Loc="1" LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0"/>
+</ProgKey>
+<LineKey1 LableName="" BtnType="13" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="2"/>
+<LineKey2 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey3 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey4 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey5 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey6 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey7 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey8 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey9 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey10 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey11 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<LineKey12 LableName="" BtnType="0" ActionData="" ExtDataOne="0" ExtDataTwo="0" CentrexNum="" CallNum="0"/>
+<KeyWave Enable="1"/>
+<Answer AnswerOrder="0"/>
+<WallPaper CurrentWallPaper="Curve.jpg"/>
+<Ring DefaultRing="Beep.wav" InNetRing="" OutNetRing="" WakeUpRing="" HuntGroupRing=""/>
+<UIEMUser UserNO="" UserName="" PassWord="" UnLoadTime="" isLogOut="0" isStorePasswd="0" timeTag="0" ContactSyncTime="0" Roaming="0" RoamingTime="0"/>
+<Paging ServiceRight="0"/>
+<Paging1 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging2 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging3 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging4 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging5 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging6 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging7 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging8 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging9 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Paging10 PagingIP="" PagingPort="1024" PagingGroupName="" PagingGroupNumber="" Pagingcodec="PCMA" PagingPtime="0" IgnoreDND="0" PayloadType="8" AccountSet="0"/>
+<Theme ThemeMode="0"/>
+<VersionDataCompatible LineKeyCompatible="0"/>
+<UnconditionalLocalForward enable="0" number=""/>
+<BusyLocalForward enable="0" number=""/>
+<NoAnswserLocalForward enable="0" number=""/>
+<ForwardConfigData Time="20"/>
+</UserCfg>
+<ComCfg>
+<Hotline enable="0" Number="" DelayTime="0" type="0"/>
+<AutoAnswer Serverenable="0" enable="0" Time="3" OutputDirection="0"/>
+<AutoCallOut enable="1" Time="5"/>
+<ManagementServer URL="" Username="" Password="******" PeriodicInformEnable="1" PeriodicInformInterval="1800" ParameterKey="" ConnectionRequestURL="" ConnectionRequestUsername="huawei" ConnectionRequestPassword="******" ConnectionAuthType="2" SpecVersion="1.0" enable="1" PeriodicSipInformEnable="1" PeriodicSipInformInterval="43200"/>
+<Log Enable="1" Level="6" ServerURL=""/>
+<SysConf DormancyTime="5" AutoSleepEnable="1" ChangeEnable="1" ChangeTime="60" ScreenSaverEnable="1" ScreenSaverWaitTime="120"/>
+<UPFSeverInfo UPFURL="" Username="" Password="******"/>
+<UpgrdCycInfo UPGRDCYC="86400" ISAUTOUPG="0"/>
+<Access ACCESSMODE="1" ACCESSMODEIPV6="1">
+<LLDP Enable="1" Interval="120"/>
+<Sntp URL="192.168.114.70" SYNCTIME="604800" ENABLESNTP="1" ENABLEUPDATETIME="1" TZONE="Kalininglad" DSTIMEMODE="0" DSTIMEOFFSET="1" BACKURL=""/>
+<StaticIp ADDRESS="" MASK="" GATEWAY="" DNS="" BKDNS=""/>
+<IPV6StaticIp ADDRESSIPV6="" MASKIPV6="0" GATEWAYIPV6="" DNSIPV6="" BKDNSIPV6=""/>
+<Dhcp DNS="" BKDNS="" ISAUTOGETDNS="1"/>
+<IPV6Dhcp DNS="" BKDNS="" ISAUTOGETDNS="1"/>
+<Pppoe USERNAME="" PASSWORD="******" MAC="" SESSIONID="0" NETWORKPROTOCOL="0" DNS="" BKDNS="" ISAUTOGETDNS="1"/>
+<IPV6Pppoe USERNAME="" PASSWORD="******" MAC="" SESSIONID="0" NETWORKPROTOCOL="0" DNS="" BKDNS="" ISAUTOGETDNS="1"/>
+<Dot1x USERNAME="" PASSWORD="******" ENABLEDOT1X="1" SENDTYPE="0" HEARTBEAT="0"/>
+<Dscp Enable="1" AUDIODSCP="46" SIGNALDSCP="46"/>
+</Access>
+<LAN Velocity="0">
+<Mirror Enable="0"/>
+</LAN>
+<BlueTooth Enable="0" BluetoothPIN="1234">
+<PINS NumberOfInstances="1">
+<PINSInstance InstanceID="1" BluetoothMac="0" BluetoothPIN="0" BluetoothChannel="0" BluetoothName=""/>
+</PINS>
+</BlueTooth>
+<Phone>
+<Server PrimaryRegServerAddress="10.10.124.2" PrimaryRegServerPort="5060" BackupRegServerAddress="" BackupRegServerPort="5060" BackupRegServer2Address="" BackupRegServer2Port="5060" BackupRegServer3Address="" BackupRegServer3Port="5060" LocalRegServerAddress="" LocalRegServerPort="5060" CallOutProxyServerAddress="" CallOutProxyServerPort="5060" CallOutBackupServerAddress="" CallOutBackuServerPort="5060" CallOutBackupServer2Address="" CallOutBackuServer2Port="5060" CallOutBackupServer3Address="" CallOutBackuServer3Port="5060" CallOutLocalServerAddress="" CallOutLocalServerPort="5060" StrategyFileServerAddress="" StrategyFileServerPort="5060" PrimaryProfileServerAddress="" PrimaryProfileServerPort="38081" BackupProfileServerAddress="" BackupProfileServerPort="38081" PrimaryAAServerAddress="" PrimaryAAServerPort="8081" BackupAAServerAddress="" BackupAAServerPort="8081" PrimaryEAddrServerAddress="" PrimaryEAddrServerPort="80" BackupEAddrServerAddress="" BackupEAddrServerPort="80" UPortalServerAddress="" UPortalServerPort="80"/>
+<Sip LocalPort="5060" SessionTime1="500" SessionTime2="4000" enableSendPrack="1" enableRequirePrack="0" RegistTimeout="600" RegistSendPeriods="10" SubscribeTimeout="3600" enableSessionTimer="0" SessionTime="90" SessionUpdateMode="0" TransferMode="0" enableRegistStatusSubscribe="1" ALLOWMESSAGE="1" ALLOWPRACK="1" ALLOWUPDATE="1" ALLOWSUBSCRIBE="1" ALLOWINFO="1" ALLOWREFER="1" ALLOWNOTIFY="1" UriScheme="0" PAIpriority="1" RejectCallType="1" InviteSwitchTime="3000" UserType="1" AlertType="1"/>
+<Global Emergencynumber1="" Emergencynumber2="" Emergencynumber3="" Emergencynumber4="" Emergencynumber5="" Emergencynumber6="" Emergencynumber7="" Emergencynumber8="" Accessdomain="" Number1Enable="1" Number2Enable="1" Number3Enable="1" Number4Enable="1" Number5Enable="1" Number6Enable="1" Number7Enable="1" Number8Enable="1" LBSparacarriedflag="1" ChassisID="" PortID="" SystemName=""/>
+<Audio HANDSFREERINGVOLUME="8" USBEARPHONERINGVOLUME="8" RJEARPHONERINGEVOLUME="8" BLUETOOTHRINGVOLUME="8" HANDSFREEVOLUME="8" HANDSETVOLUME="8" USBEARPHONEVOLUME="8" RJEARPHONEVOLUME="8" BLUETOOTHVOLUME="8" maxSpeakerPlus="2"/>
+<Environment Verson="0" NetworkingEnvironment="3" NetWorkModel="0" DnsSrvsupport="0" DisasterRecoveryMode="0"/>
+<SubTime ServiceRight="0" SCACallInfo="0" VoiceMail="0" ExtensionMobilityRegState="0" StatusDisplay="0"/>
+</Phone>
+<Media DTMFTransferMode="1" DTMFEfectLoadvalue="101" ILBCEfectLoadvalue="97" ILBCMode="30" AACLDPayloadType="98" G7221PayloadType="99" G7222PayloadType="100" OpusPayloadType="112" OpusSample="2" Ptime="20" NetATE="1">
+<SwitchInfo NoiseRestrain="1" EchoCancellation="1" SilenceDetection="0" AutomaticGain="0"/>
+<Rtp LOCALPORTMIN="10000" LOCALPORTMAX="10100"/>
+<AudioCap AACLDPRIORITY="2" G722PRIORITY="3" G711APRIORITY="4" G711UPRIORITY="5" G729ABPRIORITY="6" ILBCPRIORITY="7" G7221PRIORITY="8" G7222PRIORITY="9" OPUSPRIORITY="1"/>
+<AudioCapEnable AACLDENABLE="1" G722ENABLE="1" G711AENABLE="1" G711UENABLE="1" G729ABENABLE="1" ILBCENABLE="1" G7221ENABLE="0" G7222ENABLE="0" OPUSENABLE="1"/>
+</Media>
+<Lang language="ru-RU"/>
+<Lock lockPhone="0" isLock="0" mode="1" LocalPasswd="******" enableLock="1"/>
+<CallOut enableCallout="0"/>
+<Recall setRecallButn="0"/>
+<SystemTime timeFormat="1" amOrpm="0" dateFormat="4" time="0"/>
+<desk Light="8"/>
+<EADDR Type="1" PGMSync="0" NewUsedType="2"/>
+<LDAP ServerAddr="" ServerPort="389" FilterStr="" RootNode="" Username="" Password="******" SearchResultMax="10" SearchAttrlList="cn mobile title telephoneNumber department homePhone" enableSSL="0" AuthType="1" LdapWaitTime="10" FilterPhoneNumberStr=""/>
+<ImageServer primaryAddr="" primaryPort="8081" backupAddr="" backupPort="8081"/>
+<ThirdApply enable="0"/>
+<Signal Tone="11" Country=""/>
+<UIEMUser UserNO="" UserName="" PassWord="******" UnLoadTime="" isLogOut="0" isStorePasswd="0"/>
+<WebAdminUser UserName="admin" PassWord="Huawei79!"/>
+<WebAdminUserSecurity UserName="admin" Salt="Huawei79!" PassWord="Huawei79!"/>
+<ConferenceType ConferenceType="0" enable="1"/>
+<NetworkSafe encryptSRTP="0" encryptFileload="0" encryptVisitWeb="2"/>
+<Negotiate InternetMode="0" PCMode="0" AutoAdjust="0"/>
+<CallForward Type="4" to="0" number=""/>
+<ForwardMode CallforwardMode="1"/>
+<Joint JointType="0"/>
+<xmlAPP enableAPP="0" xmlServerAddr="" labelName=""/>
+<CallBackRecord1 SIPNumber="0" number="" time="0" acbTag="0"/>
+<CallBackRecord2 SIPNumber="0" number="" time="0" acbTag="0"/>
+<CallBackRecord3 SIPNumber="0" number="" time="0" acbTag="0"/>
+<CallBackRecord4 SIPNumber="0" number="" time="0" acbTag="0"/>
+<CallBackRecord5 SIPNumber="0" number="" time="0" acbTag="0"/>
+<AutoDispose enable="1"/>
+<AUTHORIZE usernameExist="1"/>
+<X_001E10_VQM>
+<X_001E10_Task X_001E10_Task_State="0" X_001E10_Task_Period="3" X_001E10_Task_IP="" X_001E10_Task_StartTime="" X_001E10_Task_StopTime=""/>
+</X_001E10_VQM>
+<UC10 Uctype="0" SearchHttpEnd="/queryEnterpriseAction.do?method=searchEmployeeForIpPhone" AvatarHttpEnd="/queryPersoninfoAction.do?method=queryPortraitInfo"/>
+<UserServieceParaAssignSwitch ServiceRightEnable="1" AccessCodeEnable="1"/>
+<Service>
+<DND ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*78" DeactiveAccessCode="*79"/>
+<CFU ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFB ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFN ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFO ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFUVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<CFBVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*90" DeactiveAccessCode="*91"/>
+<CFNVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*52" DeactiveAccessCode="*53"/>
+<CFOVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*72" DeactiveAccessCode="*73"/>
+<Joint ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallDeflection ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Attendant ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Secretary ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SecretaryStation ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Grouppickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Designatepickup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="**" DeactiveAccessCode=""/>
+<ACB ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Recording ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallTransfer ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallPark ServiceRight="0" ServiceRegister="0" ActiveAccessCode="70" DeactiveAccessCode=""/>
+<CallHold ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ThreepartyConference ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CorporateDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<IndividualDirectory ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<TurnPhone ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceCall ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<ExtensionMobility ServiceRight="0" ServiceRegister="1" ActiveAccessCode="" DeactiveAccessCode=""/>
+<SubRegState ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<BLF ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Presence ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Intercom ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CLIR ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DenyCallForwarding ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Absent ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<VoiceMail ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<AbbreviativeDial ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<PasswordCallLimit ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<CallWait ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Hotline ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<MCID ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<LBS ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<privacy ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<hold_private ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<bridge ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<resume ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<turnVM ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<vvm ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<HuntGroup ServiceRight="0" ServiceRegister="0" ActiveAccessCode="*45" DeactiveAccessCode="*45"/>
+<VirtualVoiceMail ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<UC2XVoiceConference ServiceRight="0" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Reject ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<Ignore ServiceRight="1" ServiceRegister="0" ActiveAccessCode="" DeactiveAccessCode=""/>
+<DNDOverride ServiceRight="1" ServiceRegister="0" ActiveAccessCode="*80" DeactiveAccessCode=""/>
+<Parameter CFUNum="" CFBNum="" CFNNum="" CFONum="" VoiceMailGetNum="*97" TurnPhoneGetCallCode="*126" TurnPhoneMobileNum="" EaddrSearchType="0" AbbrDial="" VoiceMailSupportType="1" VoiceMailNumber="" VoiceMailSPIN="******" VVMHttpsSupport="0" CallLimitType="0" CallLimitCode="" HotlineEnable="0" HotlineNumber="" HotlineDelayTime="0" HotlineType="0" bIsChangeCFUNum="0" EaddrExactSearchType="0"/>
+</Service>
+<System enableWEB="1"/>
+<WallPaperTag changeTag="0"/>
+<DesktopMenuCfg messageButton="0" enableLogout="1"/>
+<CASERVER addr="" port="" mode="0"/>
+<CertDownLoadInfo CertURL="" CertFileSize="0" LastUpdateTime="" CertPath=""/>
+<DigitMapRule Totalrules="" delayTime="" PromptlyRules="" changeNumRules=""/>
+<InputMethod chinese="0" spanish="0" putoguse="0" Abric="0" HongKong="0" French="0" Poland="0" Hungary="0" Russian="1"/>
+<CertApply domainAccount="" password="******" isAutoApply="0"/>
+<CertCNForTLS CNName=""/>
+<EHSControl enable="0"/>
+<SearchAttr displayName="displayName" title="title" department="department" telephoneNumber="telephoneNumber" mobile="mobile" homePhone="homePhone" ipPhone="ipPhone"/>
+<XMLPushServer addr="" port="80" enableAuth="1" enable="0"/>
+<DNDmode DNDMode="0" LocalDNDMode="0" enableLocalDND="0"/>
+<PCPort enable="1"/>
+<USBPort enable="1"/>
+<IntercomCfg AutoAnswer="1" Autosilence="1"/>
+<AccessType mode="0"/>
+<profile enable="0" mode="0" CalllogSync="0" SyncTime="45"/>
+<AssociateSipDot1x enable="0" AuthMode="1"/>
+<HttpsVerifyMode enable="0"/>
+<CallInWindow enable="1"/>
+<PersonalCfg URL="" FileTag=""/>
+<changePasswdHint notShowAgain="0"/>
+<CallUponOffHook enable="0"/>
+<BusyToneTime Time="3"/>
+<QueryFromCalllog enable="1"/>
+<BLF MaxNumber="10"/>
+</ComCfg>
+</Device>
+</InternetGatewayDeviceConfig>
