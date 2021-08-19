@@ -108,24 +108,24 @@ def all_func(ip_addr, number, password, web_login, web_password, flag):
     pb_status['text'] = 'Готово! Телефон будет перезагружен!'
 
 
-root = Tk() # создаем окно
-root.geometry('400x240+1000+300') #размеры и положение на экране
-root.maxsize(400, 240)
-root.minsize(400, 240)
-f = Frame(root, bg='#FBCEB1') # создаем фрейм
+root = Tk() #создаем окно
+root.geometry('380x220+1000+300') #размеры и положение на экране
+root.maxsize(380, 220)
+root.minsize(380, 220)
+f = Frame(root, bg='#FBCEB1') #создаем фрейм
 f.pack()
 
 
-l_ip = Label(f, text='Введите ip адрес:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
+l_ip = Label(f, text='Введите ip адрес:', fg='black', bg='#FBCEB1', font=('Courier New', 10, 'bold'), padx=10)
 l_ip.grid(row=0, column=0, columnspan=2, pady=10, sticky=W)
 
 e_ip = Entry(f)
-e_ip.grid(row=0, column=2, sticky=W+E, padx=10, pady=20)
+e_ip.grid(row=0, column=2, sticky=W+E, padx=10, pady=10)
 
-l_user = Label(f, text='Введите sip user:', fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'), padx=10)
+l_user = Label(f, text='Введите sip user:', fg='black', bg='#FBCEB1', font=('Courier New', 10, 'bold'), padx=10)
 l_user.grid(row=1, column=0, columnspan=2, pady=10, sticky=W)
 
-l_password = Label(f, text='Введите sip password:', padx=10, pady=10, fg='black', bg='#FBCEB1', font=('Courier New', 12, 'bold'))
+l_password = Label(f, text='Введите sip password:', fg='black', bg='#FBCEB1', font=('Courier New', 10, 'bold'), padx=10)
 l_password.grid(row=2, column=0, columnspan=2, pady=10, sticky=W)
 
 e_user = Entry(f)
@@ -135,10 +135,10 @@ e_password = Entry(f)
 e_password.grid(row=2, column=2, sticky=W+E, padx=10, pady=10)
 
 pb_status = Label(f, fg='black', bg='#FBCEB1', font=('Courier New', 10, 'bold'))
-pb_status.grid(row=4, column=0, columnspan=3, pady=10, padx=10, sticky=W)
+pb_status.grid(row=4, column=0, columnspan=2, pady=10, padx=10, sticky=W)
 
 
-btn_configure = Button(f, text='Настроить', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'admin123', 1)).grid(row=3, column=0, sticky=W, padx=30)
+btn_configure = Button(f, text='Настроить', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'admin123', 1)).grid(row=3, column=0, sticky=W, padx=10, pady=10)
 #Кнопка перерегистрации. Реквизиты user, password, которые успользуются в моей компании, они же прописываются при настройке выше
-btn_reconfigure = Button(f, text='Перерегистрация', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'Huawei79!', 0)).grid(row=3, column=1, sticky=W, padx=10)
+btn_reconfigure = Button(f, text='Перерегистрация', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'Huawei79!', 0)).grid(row=3, column=1, columnspan=2, sticky=W, padx=10, pady=10)
 root.mainloop()
