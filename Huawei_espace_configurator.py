@@ -6,6 +6,8 @@ from selenium.common.exceptions import WebDriverException
 import time, os
 from tkinter import *
 
+web_user_my_company = 'admin'
+web_passwd_my_company = 'Huawei79!'
 
 def all_func(ip_addr, number, password, web_login, web_password, flag):
 
@@ -137,8 +139,7 @@ e_password.grid(row=2, column=2, sticky=W+E, padx=10, pady=10)
 pb_status = Label(f, fg='black', bg='#FBCEB1', font=('Courier New', 10, 'bold'))
 pb_status.grid(row=4, column=0, columnspan=2, pady=10, padx=10, sticky=W)
 
-
 btn_configure = Button(f, text='Настроить', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'admin123', 1)).grid(row=3, column=0, sticky=W, padx=10, pady=10)
 #Кнопка перерегистрации. Реквизиты user, password, которые успользуются в моей компании, они же прописываются при настройке выше
-btn_reconfigure = Button(f, text='Перерегистрация', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), 'admin', 'Huawei79!', 0)).grid(row=3, column=1, columnspan=2, sticky=W, padx=10, pady=10)
+btn_reconfigure = Button(f, text='Перерегистрация', pady=5, fg='#008080', bg='lightgray', command=lambda: all_func(e_ip.get(), e_user.get(), e_password.get(), web_user_my_company, web_passwd_my_company, 0)).grid(row=3, column=1, columnspan=2, sticky=W, padx=10, pady=10)
 root.mainloop()
